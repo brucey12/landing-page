@@ -30,3 +30,30 @@ li {
 h3 {
   font-size: 24px;
 }
+
+button,
+.call-to-action {
+  background-color: #3882f6;
+}
+
+.information,
+.testimonial {
+  color: #1f2937;
+}
+
+.information,
+.testimonial p {
+  font-size: 36px;
+}
+
+.information {
+  font-weight: bolder;
+}
+
+.testimonial {
+  background-color: #e5e7eb;
+}
+
+.testimonial p {
+  font-style: italic;
+}
