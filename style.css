@@ -9,7 +9,10 @@ body {
 .header {
   height: 72px;
   display: flex;
+  justify-content: space-around;
   align-items: center;
+  /* flex: 1; */
+  /* flex-grow: 2; */
 }
 
 .header,
@@ -18,8 +21,18 @@ body {
   background-color: #1f2937;
 }
 
-hero-flex-container {
+.hero {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.hero-flex-column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
 }
 
 .information h2 {
@@ -29,19 +42,17 @@ hero-flex-container {
 }
 
 .even-columns {
+  border: 1px solid grey;
   display: flex;
-  /* width: 100%; */
+  justify-content: center;
 }
 
 .info-flex-container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+  max-width: 200px;
 }
 
 .box {
   border: 2px solid #3882f6;
-  border-radius: 4px;
   height: 100px;
   width: 100px;
 }
@@ -57,6 +68,8 @@ h3 {
 
 ul {
   list-style-type: none;
+  display: flex;
+  gap: 16px;
 }
 
 li,
