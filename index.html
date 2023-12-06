@@ -12,73 +12,87 @@
   </head>
 
   <body>
-    <div class="header">
-      <h3>Header Logo</h3>
-      <ul>
-        <li>header link one</li>
-        <li>header link two</li>
-        <li>header link three</li>
-      </ul>
-    </div>
-    <div class="hero">
-      <div class="hero-flex-column">
-        <h1>This website is lit</h1>
-        <p>
+    <header>
+      <div class="nav">
+        <div class="left">
+          <p id="logo">Header Logo</p>
+        </div>
+        <div class="right">
+          <ul>
+            <li><a href="#">header link one</a></li>
+            <li><a href="#">header link two</a></li>
+            <li><a href="#">header link three</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <div class="welcome">
+      <div class="left">
+        <h1 class="hero">This website is lit</h1>
+        <p class="secondary">
           This website has some crazy and really cool stuff going on that
           everyone needs to see now. This font is also under the title and the
           colour is lower contrast.
         </p>
-        <button>Tis the Sign Up Button</button>
+        <button class="secondary">Tis the Sign Up Button</button>
       </div>
-      <div class="image-flex-column">
-        <img src="placeholder" alt="this is a placeholder for an image" />
+      <div class="right">
+        <div class="image">
+          <p class="secondary">this is a placeholder for an image</p>
+        </div>
       </div>
     </div>
-    <div class="information">
+
+    <div class="main">
       <h2>Random information here.</h2>
-      <div class="even-columns">
-        <div class="info-flex-container">
-          <div class="box"></div>
-          <div class="text">
-            this is some subtext under an illustration or image
-          </div>
+      <div class="card-container secondary">
+        <div class="card">
+          <div class="square"></div>
+          <p>this is some subtext under an illustration or image</p>
         </div>
-        <div class="info-flex-container">
-          <div class="box"></div>
-          <div class="text">
-            this is some subtext under an illustration or image
-          </div>
+
+        <div class="card">
+          <div class="square"></div>
+          <p>this is some subtext under an illustration or image</p>
         </div>
-        <div class="info-flex-container">
-          <div class="box"></div>
-          <div class="text">
-            this is some subtext under an illustration or image
-          </div>
+
+        <div class="card">
+          <div class="square"></div>
+          <p>this is some subtext under an illustration or image</p>
         </div>
-        <div class="info-flex-container">
-          <div class="box"></div>
-          <div class="text">
-            this is some subtext under an illustration or image
-          </div>
+
+        <div class="card">
+          <div class="square"></div>
+          <p>this is some subtext under an illustration or image</p>
         </div>
       </div>
     </div>
+
     <div class="testimonial">
-      <p>
+      <p class="quote">
         This will probably be a great testimonial from someone since this
         landing page is so good. Maybe it will just be filling up space, or
         maybe people will actually read it. Who knows? At least it looks good.
       </p>
-      <p>- An Important Person Said This</p>
+      <p class="author">- An Important Person Said This</p>
     </div>
+
     <div class="call-to-action">
-      <h2>Call to action! It's time!</h2>
-      <p>
-        Sign up for this really important newsletter or product release by
-        clicking that buttom!
-      </p>
-      <button>Tap dat</button>
+      <div class="container">
+        <div class="left">
+          <strong>Call to action! It's time!</strong>
+          <p class="secondary">
+            Sign up for this really important newsletter or product release by
+            clicking that buttom!
+          </p>
+        </div>
+        <div class="right">
+          <button class="secondary">Tap dat</button>
+        </div>
+      </div>
     </div>
-    <div class="footer">Copyright &#169; Nolan Bruce 2023</div>
+
+    <footer>Copyright &#169; Nolan Bruce 2023</footer>
   </body>
 </html>
